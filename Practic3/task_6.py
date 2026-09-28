@@ -1,4 +1,3 @@
-#6 задание
 # Сбор данных от пользователя
 name = input("Ваше имя: ")
 age_str = input("Ваш возраст: ")
@@ -23,8 +22,8 @@ print("АНКЕТА СТУДЕНТА")
 print("=" * 30)
 
 # Вывод данных из словаря
-print(f"Имя: {student['name']}")
-print(f"Возраст: {student['age']}")
-print(f"Любимые предметы: {student['subjects']}")
+print("Имя:", student['name'])
+print("Возраст:", student['age'])
+print("Любимые предметы:", student['subjects'])
 
 print("=" * 30)
