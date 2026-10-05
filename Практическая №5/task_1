@@ -1,1 +1,18 @@
+TAX_RATE = 0.13
 
+def calculate_tax(income):
+
+    tax = income * TAX_RATE
+
+    income_after_tax = income - tax
+
+    return tax, income_after_tax
+
+
+income = float(input("Введите годовой доход: "))
+
+tax, income_after_tax = calculate_tax(income)
+
+print(f"Общая сумма дохода: {income:.2f} руб.")
+print(f"Сумма рассчитанного налога: {tax:.2f} руб.")
+print(f"Сумма на руки: {income_after_tax:.2f} руб.")
