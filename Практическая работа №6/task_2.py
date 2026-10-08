@@ -25,8 +25,6 @@ except ValueError:
     print("Введите целое число!!!")
     exit()
 
-
-
 # Первый блок: карман 0 – зеленый;
 if pocket_number == 0:
     print("Цвет кармана - зеленый!")
